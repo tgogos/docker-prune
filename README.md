@@ -1,5 +1,7 @@
 # docker-prune
 
+Guidelines to set up a script that will be used by cron to run a `docker system prune` every Sunday at 4:00 AM...
+
 ### 🛡️ **"Prune only if disk usage > 80%"**
 
 You create a small **bash script** that:
